@@ -2,7 +2,7 @@
 
 ## demo
 
-1. poweroff fpga board and program bits.
+1. program bits to fpga board.
 2. connect to uart output in a new terminal window, find ttyUSB device with ```dmesg | grep cp210x```, connect uart with ```sudo screen /dev/ttyUSB2 115200```
 3. cd to rv, make rv code, rv code will be copied to host inputs.
 4. cd to host/lib make host lib .so
