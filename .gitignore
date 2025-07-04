@@ -1,0 +1,11 @@
+host/yl_demo/input/swf_code.bin
+host/yl_demo/build
+host/yl_demo/hpu_code
+rv/output
+rv_new/output
+riscv
+riscv64-unknown-elf
+
+*.o
+*.co
+*.dump
